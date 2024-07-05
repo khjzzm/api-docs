@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="adoc"
+                  name="API Docs"
+                  start-page="api-docs.md">
+
+    <toc-element topic="api-docs.md"/>
+    <toc-element topic="API-quickstart.md"/>
+    <toc-element topic="API-reference.md">
+        <toc-element toc-title="User">
+            <toc-element topic="회원가입.md"/>
+            <toc-element topic="로그인.md"/>
+            <toc-element topic="비밀번호 변경.md"/>
+            <toc-element topic="토큰 재발급.md"/>
+            <toc-element topic="로그아웃.md"/>
+            <toc-element topic="비밀번호 초기화 메일발송.md"/>
+            <toc-element topic="비밀번호 초기화.md"/>
+        </toc-element>
+        <toc-element toc-title="Member">
+
+            <toc-element topic="회원목록.md"/>
+        </toc-element>
+    </toc-element>
+    <toc-element topic="Changes.md"/>
+</instance-profile>

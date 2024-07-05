@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="5f1b2655">
+        <description>Created after removal of "Empty MD Topic" from API Docs</description>
+        <accepts>Empty-MD-Topic.html</accepts>
+    </rule>
+    <rule id="e5f8b0c">
+        <description>Created after removal of "Starter" from API Docs</description>
+        <accepts>Starter.html</accepts>
+    </rule>
+    <rule id="4199f750">
+        <description>Created after removal of "Empty MD Topic" from API Docs</description>
+        <accepts>Empty-MD-Topic.html</accepts>
+    </rule>
+    <rule id="7321a23f">
+        <description>Created after removal of "Pet" from API Docs</description>
+        <accepts>Pet.html</accepts>
+    </rule>
+</rules>
